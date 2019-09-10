@@ -1,0 +1,251 @@
+body {
+  background-color: black;
+}
+
+.container2 {
+  position: flex;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#invitation {
+  position: flex;
+}
+#title {
+  top: 20px;
+  font-size: 10px;
+  font-family: cursive;
+  text-align: center;
+  position: relative;
+  background-color: black;
+  color: red;
+  justify-content: center;
+
+  -webkit-animation-name: title-popup;
+  animation-name: title-popup;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes title-popup {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  50.1% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes title-popup {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  50% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  50.1% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+#bottom {
+  top: 24px;
+  color: red;
+  font-size: 10px;
+  text-align: center;
+  position: relative;
+  font-family: cursive;
+
+  -webkit-animation-name: bottom-popup;
+  animation-name: bottom-popup;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes bottom-popup {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  55% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  55.1% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes bottom-popup {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  55% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  55.1% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.container {
+  width: 350px;
+  overflow: hidden;
+  display: block;
+  height: 350px;
+  top: 0;
+  left: 0;
+  position: relative;
+  background-color: black;
+}
+.video {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: -120px;
+}
+.btn-pumpkin {
+  position: absolute;
+  top: 275px;
+  left: 140px;
+  width: 100px;
+  height: 100px;
+
+  -webkit-animation-name: heartBeat;
+  animation-name: heartBeat;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  25% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  25.1% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  25% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  25.1% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  //CSS
+}
